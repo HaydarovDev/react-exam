@@ -1,6 +1,6 @@
 import React from "react";
 import macbook from "../assets/images/MacBookPro14.png";
-import ps from "../assets/images/Playstation.png";
+import ps from "../assets/images/playssation.png";
 import earPhones from "../assets/images/earphone.png";
 import vr from "../assets/images/VR.png";
 
