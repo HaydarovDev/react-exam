@@ -12,7 +12,7 @@ const Category = () => {
   const nextRef = useRef(null);
 
   return (
-    <article className="py-10 flex justify-center items-center">
+    <article className="py-10 flex justify-center items-center bg-[#FAFAFA]">
       <main className="w-[80%] flex flex-col">
         <header className="flex justify-between">
           <h1 className="regular text-2xl">Browse By Category</h1>
@@ -34,7 +34,7 @@ const Category = () => {
 
         <Swiper
           slidesPerView={6}
-          spaceBetween={20}
+          spaceBetween={10}
           navigation={{
             prevEl: prevRef.current,
             nextEl: nextRef.current,
@@ -44,7 +44,7 @@ const Category = () => {
             swiper.params.navigation.nextEl = nextRef.current;
           }}
           modules={[Navigation]}
-          className="mt-6"
+          className="mt-6 "
         >
           <SwiperSlide>
             <div className="flex flex-col items-center gap-2">
