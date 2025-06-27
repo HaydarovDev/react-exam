@@ -1,5 +1,5 @@
 import React from "react";
-import phone from "../assets/images/Iphone Image.png";
+import phone from "../assets/images/IphoneImage.png";
 
 const Home = () => {
   return (

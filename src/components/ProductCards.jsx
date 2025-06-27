@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/images/Group 1.png";
-import img2 from "../assets/images/image 64.png";
-import img3 from "../assets/images/image 41.png";
+import img1 from "../assets/images/Group1.png";
+import img2 from "../assets/images/image64.png";
+import img3 from "../assets/images/image41.png";
 import img4 from "../assets/images/Macbook 1.png";
 
 const ProductCards = () => {
